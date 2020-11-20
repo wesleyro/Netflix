@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+
+     <!--resposividade-->
+     <link rel="stylesheet" href="responsive.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2><a class="logo"  href="index.html">NETFLIX</a></h2>
+            <nav>
+                <style>
+                    .logo{
+                        text-decoration: none;
+                    }
+                    .pagina_selecionada{
+                        color:white;
+                    }
+                </style>
+                <a href="index.html">Inicio</a>
+                <a class="pagina_selecionada"href="series.html"><b>Séries</b></a>
+                <a href="filmes.html">Filmes</a>
+                <a href="#">Documentário</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Ponto Cego</h3>
+                <p class="descricao">Misteriosa mulher é encontrada na Times Square, sem quaisquer lembranças de quem ela é e de como chegou ali. As únicas pistas que ela possui são as tatuagens que cobrem todo o seu corpo. Um agente do FBI passa a ajudá-la enquanto buscam a verdade.</p>
+               <style>
+                   .filme-principal{
+                    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('img/ponto-cego.jpg');
+                   }
+               </style>
+                <div class="botoes">
+                    <button role="button"class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button"class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES    
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <h2>Séries</h2>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            
+           <div class="item">
+               <img class="box-filme" src="img/bom-dia-veronica.jpg" alt="">
+           </div>
+           <div class="item">
+            <img class="box-filme" src="img/coisa-mais-linda.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/one-time.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/brooklyn-nine-nine.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/sabrina.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/sex-education.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/stranger-things.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/teen-wolf.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/daredevil.jpg" alt="">
+        </div>
+        </div> 
+
+    </div>
+    <script src="https://kit.fontawesome.com/454761285e.js" crossorigin="anonymous"></script>
+    <script src="js/owl1/jquery.min.js"></script>
+    <script src="js/owl1/owl.carousel.min.js"></script>
+    <script src="js/owl1/setup.js"></script>
+</body>
+</html>
